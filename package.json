@@ -1,0 +1,25 @@
+{
+    "name": "mcdiscordwhitelist",
+    "version": "1.0.0",
+    "description": "This is a discord bot that whitelists minecraft users",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "discord.js": "^12.3.1",
+        "eslint": "^7.10.0",
+        "moment": "^2.24.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mcmogaming/mcdiscordwhitelist.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mcmogaming/mcdiscordwhitelist/issues"
+    },
+    "homepage": "https://github.com/mcmogaming/mcdiscordwhitelist#readme"
+}
