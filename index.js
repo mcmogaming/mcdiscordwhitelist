@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const token = "NzYwMzgyMDM2MDM1ODk1Mjk3.X3LO9A.EmDc4H5H1QHfAScB5pSFaySTZ0g"
+const keys = require('keys.js');
 
 const client = new Discord.Client();
 
@@ -22,4 +22,4 @@ client.on('message', message => {
 
 
 
-client.login(token);
+client.login(keys.token);
